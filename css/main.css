@@ -26,6 +26,7 @@ h1 {
 p {
   font-size: 1rem;
   color: #512200;
+  line-height: 1.5rem;
 }
 
 nav {
@@ -37,7 +38,7 @@ dd {
   font-style: italic;
 }
 
-.link-card {
+.link-card h2 {
   padding: 1rem;
   font-size: 1.125rem;
   background-color: #785439;
@@ -45,4 +46,8 @@ dd {
   border-radius: 8px;
   text-align: center;
   font-family: 'Dosis', sans-serif;
+}
+
+.link-card:hover {
+  
 }
